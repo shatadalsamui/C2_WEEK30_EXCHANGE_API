@@ -4,7 +4,7 @@ interface Order {
     orderId: string;
 }
 
-enum Side {
+export enum Side {
     Bid = 'bid',
     Ask = 'ask'
 }
